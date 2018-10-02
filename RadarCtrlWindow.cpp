@@ -24,11 +24,11 @@ RadarCtrlWindow::RadarCtrlWindow(QWidget *parent) : QWidget(parent)
     this->setLayout(&lo);
 
 
-    PB_FenPi->show();
-    PB_HePi->show();
-    PB_GaiPi->show();
-    PB_HuanPi->show();
-    PB_QingPi->show();
+//    PB_FenPi->show();
+//    PB_HePi->show();
+//    PB_GaiPi->show();
+//    PB_HuanPi->show();
+//    PB_QingPi->show();
 
 
 

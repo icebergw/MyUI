@@ -12,9 +12,11 @@
 MainWindow::MainWindow()
 {
 
-    RadarCtrlWin = new RadarCtrlWindow();
+    RadarCtrlWin = new RadarCtrlWindow(this);
 
     this->resize(MAINWINDOW_WIDTH, MAINWINDOW_LENGTH);
+
+//    RadarCtrlWin->show();
 
 //    QWidget *widget = new QWidget();
 //    this->setCentralWidget(widget);
@@ -31,6 +33,7 @@ MainWindow::MainWindow()
 
 
 
+    /*
     QPushButton *PB_FenPi = new QPushButton(tr("分批"),this);
     QPushButton *PB_HePi = new QPushButton(tr("合批"),this);
     QPushButton *PB_GaiPi = new QPushButton(tr("改批"),this);
@@ -67,7 +70,9 @@ MainWindow::MainWindow()
     PB_HuanPi->show();
     PB_QingPi->show();
 
-    /*
+    */
+
+
 
     openQssFile();
 
@@ -159,7 +164,6 @@ MainWindow::MainWindow()
     addDockWidget(Qt::LeftDockWidgetArea,dock);
 
 
-*/
 }
 
 MainWindow::~MainWindow()

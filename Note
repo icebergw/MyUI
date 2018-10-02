@@ -6,4 +6,7 @@
 窗口布局：https://blog.csdn.net/liang19890820/article/details/51538275
 
 
-学会用git
+1、学会用git
+
+2、layout只能在widget上布局，在QMainWindow上布局失败，因为QMainWindow本身自带一个布局，若要在QMainWindow上进行布局的话，则需要在CentralWidget，或重新加载一个Widget
+【貌似QDockWidget也有自身的Layout】
